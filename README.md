@@ -1,37 +1,34 @@
-# Proyecto Lenguaje de Marcas 
+# Markup Language Project
 
-Pagina web creada como proyecto de la Asignatura de Lenguaje de Marcas (LND), en este caso, yo e decidico ambientar mi pagina en el universo de Warhammer 40k.
+Website created as a project for the Markup Language (LND) subject. In this case, I decided to theme my page around the Warhammer 40k universe.
 
-## Comenzando
+## Getting Started
 
-Estas instrucciones te permitirán obtener una copia del proyecto funcionando en tu máquina local para propósitos de desarrollo y pruebas.
+These instructions will help you get a copy of the project running on your local machine for development and testing purposes.
 
-### Prerequisitos
+### Prerequisites
 
-No se requieren instalaciones especiales. Solo necesitas:
+No special installations are required. You only need:
 
-- Un navegador web(Chrome, Firefox, Safari, Edge)
-- Un editor de código (VS Code, Sublime Text, etc.)
-- Opcionalmente, un servidor local como Live Server para desarrollo
+- A web browser (Chrome, Firefox, Safari, Edge)
+- A code editor (VS Code, Sublime Text, etc.)
+- Optionally, a local server like Live Server for development
 
-### Instalación
+### Installation
 
-Sigue estos pasos para configurar el proyecto en tu entorno local:
+Follow these steps to set up the project in your local environment:
 
-1. Clona el repositorio
-
+1. Clone the repository
 ```bash
 git clone https://github.com/JuanAntonioMMalles/OfficialProyect.git
 ```
 
-2. Navega al directorio del proyecto
-
+2. Navigate to the project directory
 ```bash
 cd OfficialProyect
 ```
 
-3. Asegúrate de tener la siguiente estructura de carpetas:
-
+3. Make sure you have the following folder structure:
 ```
 OfficialProyect/
 │
@@ -54,90 +51,88 @@ OfficialProyect/
     └── tyranids.jpg
 ```
 
-4. Abre `index.html` en tu navegador o utiliza un servidor local
+4. Open `index.html` in your browser or use a local server
 
-Con Live Server en VS Code:
+With Live Server in VS Code:
 ```
-Clic derecho en index.html > Open with Live Server
+Right-click on index.html > Open with Live Server
 ```
 
-## Características
+## Features
 
-- **Diseño Responsive**: Adaptado para escritorio, tablet y móvil
-- **Interfaz Temática**: Colores inspirados en el Imperium (rojo sangre y dorado)
-- **10 Facciones**: Marines Espaciales, Guardia Imperial, Orkos, Aeldari, Necrones, Drukhari, Marines del Caos, Tau, Tiránidos y Dioses del Caos
-- **Menú Hamburguesa**: Para dispositivos móviles y tablets
-- **Efectos Hover**: Interacciones visuales en las tarjetas de facciones
+- **Responsive Design**: Adapted for desktop, tablet, and mobile
+- **Thematic Interface**: Colors inspired by the Imperium (blood red and gold)
+- **10 Factions**: Space Marines, Imperial Guard, Orks, Aeldari, Necrons, Drukhari, Chaos Marines, Tau, Tyranids, and Chaos Gods
+- **Hamburger Menu**: For mobile devices and tablets
+- **Hover Effects**: Visual interactions on faction cards
 
+## Technologies Used
 
-## Tecnologías Utilizadas
-
-- **HTML5**: Estructura semántica del sitio
-- **CSS3**: Estilos y diseño responsive
-  - Flexbox para layouts
-  - Grid para organización de facciones
-  - Media queries para responsive design
-  - Gradientes y efectos visuales
-- **JavaScript**: Funcionalidad del menú hamburguesa
-- **Google Fonts**: Fuente 'Rubik Mono One' para el estilo temático
+- **HTML5**: Semantic structure of the site
+- **CSS3**: Styles and responsive design
+  - Flexbox for layouts
+  - Grid for faction organization
+  - Media queries for responsive design
+  - Gradients and visual effects
+- **JavaScript**: Hamburger menu functionality
+- **Google Fonts**: 'Rubik Mono One' font for thematic styling
 
 ## Responsive Breakpoints
 
-- **Escritorio** (>768px): Grid de 2-3 columnas, imágenes visibles a la izquierda
-- **Tablet** (600px-768px): Columna única, diseño horizontal mantenido, menú hamburguesa activado
-- **Móvil** (400px-600px): Columna única, diseño vertical con imágenes arriba
-- **Móvil pequeño** (<400px): Columna única, imágenes ocultas para optimización
+- **Desktop** (>768px): 2-3 column grid, images visible on the left
+- **Tablet** (600px-768px): Single column, horizontal layout maintained, hamburger menu activated
+- **Mobile** (400px-600px): Single column, vertical layout with images on top
+- **Small Mobile** (<400px): Single column, images hidden for optimization
 
-## Estructura del Código
+## Code Structure
 
 ### HTML
-- Header con navegación responsive
-- Main con grid de facciones
-- Footer con enlaces sociales y copyright
+- Header with responsive navigation
+- Main with faction grid
+- Footer with social links and copyright
 
 ### CSS
-- Sistema de variables de color (posible mejora futura)
-- Estilos modulares por sección
-- Media queries organizadas por tamaño de pantalla
+- Color variable system (possible future improvement)
+- Modular styles by section
+- Media queries organized by screen size
 
 ### JavaScript
-- Control del menú hamburguesa
-- Toggle de clase 'active' para mostrar/ocultar menú
+- Hamburger menu control
+- Toggle 'active' class to show/hide menu
 
-## Versión Actual
+## Current Version
 
-**v1.0.0** - Lanzamiento inicial con 10 facciones principales
+**v1.0.0** - Initial release with 10 main factions
 
-## Autores
+## Authors
 
-- **Juan Antonio** - *Trabajo Inicial* - [JuanAntonioMMalles](https://github.com/JuanAntonioMMalles)
+- **Juan Antonio** - *Initial Work* - [JuanAntonioMMalles](https://github.com/JuanAntonioMMalles)
 
-## Licencia
+## License
 
-Este proyecto es una fan page no oficial y no está afiliado con Games Workshop Ltd. Warhammer 40,000 y todas las marcas relacionadas son propiedad de Games Workshop Ltd.
+This project is an unofficial fan page and is not affiliated with Games Workshop Ltd. Warhammer 40,000 and all related trademarks are property of Games Workshop Ltd.
 
-El código de este proyecto está disponible bajo la licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para más detalles.
+The code for this project is available under the MIT license - see the [LICENSE.md](LICENSE.md) file for more details.
 
-## Agradecimientos
+## Acknowledgments
 
-- Games Workshop por crear el universo de Warhammer 40,000
-- Comunidad de fans de Warhammer 40k
-- Artistas cuyos trabajos inspiraron el diseño visual
-- PurpleBooth por la plantilla de README
+- Games Workshop for creating the Warhammer 40,000 universe
+- Warhammer 40k fan community
+- Artists whose work inspired the visual design
+- PurpleBooth for the README template
 
-### Futuras Características
-- [ ] Páginas individuales para cada facción con lore detallado
-- [ ] Sección de libros recomendados
-- [ ] Galería de miniaturas pintadas
-- [ ] Sección de videojuegos
-- [ ] Sistema de búsqueda
-- [ ] Tema claro/oscuro
-- [ ] Integración con API de Games Workshop (si está disponible)
-- [ ] Blog de noticias y actualizaciones
+### Future Features
+- [ ] Individual pages for each faction with detailed lore
+- [ ] Recommended books section
+- [ ] Painted miniatures gallery
+- [ ] Video games section
+- [ ] Search system
+- [ ] Light/dark theme
+- [ ] Games Workshop API integration (if available)
+- [ ] News and updates blog
 
-
-Para preguntas o sugerencias, puedes contactarme en:
-- Email: juanantoniommalles@gmail.com.com
+For questions or suggestions, you can contact me at:
+- Email: juanantoniommalles@gmail.com
 - GitHub: [@JuanAntonioMMalles](https://github.com/JuanAntonioMMalles)
 
 ---
