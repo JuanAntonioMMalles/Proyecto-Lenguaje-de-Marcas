@@ -38,7 +38,7 @@ OfficialProyect/
 ├── js/
 │   └── menu.js
 └── img/
-    ├── Aquila_imperialis.png
+    ├── Aquila-imperialis.png
     ├── chaos-gods.jpg
     ├── space-marines.jpeg
     ├── imperial-guard.jpeg
@@ -120,6 +120,8 @@ The code for this project is available under the MIT license - see the [LICENSE.
 - Warhammer 40k fan community
 - Artists whose work inspired the visual design
 - PurpleBooth for the README template
+- Inspiration web link: https://dribbble.com/shots/25519203-landing-page-for-fintech-web-design-3D-animation 
+
 
 ### Future Features
 - [ ] Individual pages for each faction with detailed lore

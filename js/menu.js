@@ -1,19 +1,19 @@
-// obtain elements
-const menuToggle = document.getElementById('menu-hamburguer');
-const headerButtons = document.getElementById('header-buttons');
+// OBTAIN ELEMENTS
+const MENU_TOGGLE = document.getElementById('menu-hamburguer');
+const HEADER_BUTTONS = document.getElementById('header-buttons');
 
-//click at hamburguer button
-menuToggle.addEventListener('click', function () {
-  // Desplegable de la clase 'active' para mostrar/ocultar el menú
-  headerButtons.classList.toggle('active');
+// CLICK AT HAMBURGUER BUTTON
+MENU_TOGGLE.addEventListener('click', function () {
+  // 'ACTIVE' CLASS DROP-DOWN MENU TO SHOW/HIDE
+  HEADER_BUTTONS.classList.toggle('active');
 });
 
-//Close when click outside the button 
+// CLOSE WHEN CLICK OUTSIDE THE BUTTON 
 document.addEventListener('click', function (event) {
-  const isClickInsideMenu = headerButtons.contains(event.target);
-  const isClickOnToggle = menuToggle.contains(event.target);
+  const IS_CLICK_INSIDE_MENU = HEADER_BUTTONS.contains(event.target);
+  const IS_CLICK_ON_TOGGLE = MENU_TOGGLE.contains(event.target);
 
-  if (!isClickInsideMenu && !isClickOnToggle && headerButtons.classList.contains('active')) {
-    headerButtons.classList.remove('active');
+  if (!IS_CLICK_INSIDE_MENU && !IS_CLICK_ON_TOGGLE && HEADER_BUTTONS.classList.contains('active')) {
+    HEADER_BUTTONS.classList.remove('active');
   }
 });
